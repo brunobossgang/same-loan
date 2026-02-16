@@ -31,9 +31,10 @@ export default function About() {
           <h3 className="text-lg font-semibold text-white/80">Methodology</h3>
           <p className="mt-2">
             We analyze originated mortgage loans (home purchase and refinance) for
-            primary residences across all 50 states and DC. Average interest rates
-            are compared by race, controlling for income bracket, loan amount, loan
-            type (conventional, FHA, VA), and loan-to-value ratio.
+            primary residences across all 50 states and DC, spanning 2018–2023. Rate
+            spreads (above the benchmark APOR rate) are compared by race, stratified
+            by income bracket, loan type (conventional, FHA, VA, USDA), and state.
+            Hispanic ethnicity is identified via HMDA&apos;s derived_ethnicity field.
           </p>
         </div>
 
