@@ -23,9 +23,9 @@ export default function StateCards() {
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {sorted.slice(0, 15).map((state, i) => {
           const st = data.by_state[state as keyof typeof data.by_state];
-          const gap = (st?.rate_gap_bw as number) || 0;
+          const bwGap = (st?.rate_gap_bw as number) || 0;
+          const hwGap = (st?.rate_gap_hw as number) || 0;
           const loans = st?.total_loans || 0;
-          const isPositive = gap > 0;
 
           return (
             <div
@@ -36,18 +36,22 @@ export default function StateCards() {
                 <h3 className="font-bold">{state}</h3>
                 <span className="text-xs text-white/30">#{i + 1}</span>
               </div>
-              <div className="mt-2 flex items-baseline gap-2">
-                <span className={`text-2xl font-black ${isPositive ? "text-emerald-500" : "text-blue-400"}`}>
-                  {gap > 0 ? "+" : ""}{gap.toFixed(3)}pp
-                </span>
-                <span className="text-xs text-white/40">B/W gap</span>
+              <div className="mt-2 flex flex-wrap items-baseline gap-x-4 gap-y-1">
+                <div className="flex items-baseline gap-1">
+                  <span className={`text-2xl font-black ${bwGap > 0 ? "text-emerald-500" : "text-blue-400"}`}>
+                    {bwGap > 0 ? "+" : ""}{bwGap.toFixed(3)}pp
+                  </span>
+                  <span className="text-xs text-white/40">B/W</span>
+                </div>
+                <div className="flex items-baseline gap-1">
+                  <span className={`text-xl font-black ${hwGap > 0 ? "text-amber-500" : "text-blue-400"}`}>
+                    {hwGap > 0 ? "+" : ""}{hwGap.toFixed(3)}pp
+                  </span>
+                  <span className="text-xs text-white/40">H/W</span>
+                </div>
               </div>
-              <div className="mt-2 flex justify-between text-xs text-white/40">
-                <span>{loans.toLocaleString()} loans</span>
-                <span>
-                  {st?.avg_rates?.white ? `W:${(st.avg_rates.white as number).toFixed(2)}%` : ""}
-                  {st?.avg_rates?.black ? ` B:${(st.avg_rates.black as number).toFixed(2)}%` : ""}
-                </span>
+              <div className="mt-2 text-xs text-white/40">
+                {loans.toLocaleString()} loans
               </div>
             </div>
           );

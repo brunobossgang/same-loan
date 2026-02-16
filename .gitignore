@@ -1,8 +1,5 @@
 node_modules/
 .next/
 data/*.csv
-data/*.csv.gz
-data/*.zip
-.env*
-*.pyc
+data/*.json
 __pycache__/

@@ -36,8 +36,8 @@ KEEP_COLS = [
     'lien_status','conforming_loan_limit','total_units'
 ]
 
-# Download years 2022 and 2023 (most recent with rate data)
-YEARS = [2022, 2023]
+# Download years 2018-2023 (6 years spanning pre-COVID through post-COVID rate environment)
+YEARS = [2018, 2019, 2020, 2021, 2022, 2023]
 
 def download_state_year(state, year):
     """Download HMDA data for a state and year."""
@@ -87,9 +87,11 @@ def process_state(state):
                 if row.get('occupancy_type') != '1':  # primary residence
                     continue
                     
+                # Keep all races — Hispanic is in derived_ethnicity, not derived_race
                 race = row.get('derived_race', '')
-                if race not in ('White', 'Black or African American', 'Hispanic or Latino', 
-                               'Asian', 'Joint', 'Race Not Available'):
+                ethnicity = row.get('derived_ethnicity', '')
+                if race not in ('White', 'Black or African American', 'Asian', 'Joint', 'Race Not Available') \
+                   and ethnicity not in ('Hispanic or Latino', 'Not Hispanic or Latino'):
                     continue
                 
                 # Must have interest rate

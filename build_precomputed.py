@@ -22,14 +22,17 @@ STATE_NAMES = {
 RACE_MAP = {
     'White': 'white',
     'Black or African American': 'black',
-    'Hispanic or Latino': 'hispanic',
     'Asian': 'asian',
 }
+# Hispanic is in derived_ethnicity, not derived_race
 
 LT_NAMES = {'1':'Conventional','2':'FHA','3':'VA','4':'USDA'}
 
 def process_state(state_code):
-    slim_path = os.path.join(DATA_DIR, f"{state_code}_slim.csv")
+    # Prefer merged file
+    slim_path = os.path.join(DATA_DIR, f"{state_code}_slim_merged.csv")
+    if not os.path.exists(slim_path):
+        slim_path = os.path.join(DATA_DIR, f"{state_code}_slim.csv")
     if not os.path.exists(slim_path):
         return None
     
@@ -54,9 +57,15 @@ def process_state(state_code):
     with open(slim_path) as f:
         for row in csv.DictReader(f):
             raw_race = row.get('derived_race', '')
-            race = RACE_MAP.get(raw_race)
-            if not race:
-                continue
+            raw_ethnicity = row.get('derived_ethnicity', '')
+            
+            # Hispanic ethnicity overrides race classification
+            if raw_ethnicity == 'Hispanic or Latino':
+                race = 'hispanic'
+            else:
+                race = RACE_MAP.get(raw_race)
+                if not race:
+                    continue
             
             rate_str = row.get('interest_rate', '')
             spread_str = row.get('rate_spread', '')
@@ -184,9 +193,13 @@ all_rates = defaultdict(list)
 all_spreads = defaultdict(list)
 
 for f in sorted(os.listdir(DATA_DIR)):
-    if not f.endswith('_slim.csv'):
+    # Prefer merged files (6 years), fall back to original slims (2 years)
+    if f.endswith('_slim_merged.csv'):
+        sc = f.replace('_slim_merged.csv', '')
+    elif f.endswith('_slim.csv') and not os.path.exists(os.path.join(DATA_DIR, f.replace('_slim.csv', '_slim_merged.csv'))):
+        sc = f.replace('_slim.csv', '')
+    else:
         continue
-    sc = f.replace('_slim.csv', '')
     name = STATE_NAMES.get(sc, sc)
     
     print(f"Processing {sc} ({name})...")
@@ -220,7 +233,7 @@ precomputed = {
         "total_loans": total_loans,
         "num_states": len(states_list),
         "states": states_list,
-        "years": "2022-2023",
+        "years": "2018-2023",
     },
     "avg_rates": nat_rates,
     "avg_spreads": nat_spreads,

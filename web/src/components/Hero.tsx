@@ -29,9 +29,11 @@ function CostTicker() {
     return () => clearInterval(interval);
   }, []);
 
-  // ~5.8M originated loans/year, avg racial rate gap costs ~$15K over 30yr
-  // That's ~$2,760 per second in excess costs to minority borrowers
-  const excessCost = seconds * 2760;
+  // ~2.5M loans/year, avg excess spread ~0.17pp on ~$300K = ~$510/yr extra
+  // That's ~2.5M * $510 = $1.275B/yr excess → ~$40.4/sec
+  // But lifetime (30yr): 0.17pp on $300K ≈ $15K → 2.5M * $15K = $37.5B/yr new burden
+  // Per second: $37.5B / 31.5M seconds/yr ≈ $1,190/sec
+  const excessCost = seconds * 1190;
 
   return (
     <motion.div
@@ -77,25 +79,33 @@ export default function Hero() {
           Same income. Same loan amount. Same neighborhood. The only difference?
         </p>
 
-        <div className="mt-6 text-5xl font-black md:text-7xl">
-          <span className="text-emerald-500">
-            <AnimatedCounter target={0.069} suffix="pp" decimals={3} />
-          </span>
-          <span className="text-white/40 text-3xl md:text-5xl ml-3">higher spread</span>
+        <div className="mt-6 flex flex-wrap items-baseline justify-center gap-6">
+          <div>
+            <div className="text-5xl font-black md:text-7xl text-amber-500">
+              <AnimatedCounter target={0.192} prefix="+" suffix="pp" decimals={3} />
+            </div>
+            <div className="text-sm text-amber-400/70 mt-1">Hispanic vs White</div>
+          </div>
+          <div>
+            <div className="text-4xl font-black md:text-5xl text-emerald-500">
+              <AnimatedCounter target={0.161} prefix="+" suffix="pp" decimals={3} />
+            </div>
+            <div className="text-sm text-emerald-400/70 mt-1">Black vs White</div>
+          </div>
         </div>
 
         <p className="mt-4 text-lg text-white/50">
-          Above benchmark. On a $300K loan, that&apos;s{" "}
+          Higher rate spread above benchmark. On a $300K loan, that&apos;s{" "}
           <span className="text-emerald-400 font-semibold">thousands more</span> over the life of the mortgage.
         </p>
 
         <p className="mt-2 text-sm text-white/40">
-          Worst states: Wisconsin (+0.39pp), Rhode Island (+0.30pp), Pennsylvania (+0.30pp), Maryland (+0.32pp)
+          Worst B/W states: Wisconsin (+0.40pp), Louisiana (+0.40pp), South Carolina (+0.37pp), Michigan (+0.36pp), Illinois (+0.35pp)
         </p>
 
         <div className="mt-12 flex flex-wrap justify-center gap-8 text-white/40 text-sm">
           <div>
-            <span className="block text-2xl font-bold text-white/80">5.2M</span>
+            <span className="block text-2xl font-bold text-white/80">15.3M</span>
             loans analyzed
           </div>
           <div>
@@ -103,7 +113,7 @@ export default function Hero() {
             states + DC
           </div>
           <div>
-            <span className="block text-2xl font-bold text-white/80">2022–2023</span>
+            <span className="block text-2xl font-bold text-white/80">2018–2023</span>
             HMDA · CFPB
           </div>
         </div>
