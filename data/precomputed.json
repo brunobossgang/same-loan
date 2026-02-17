@@ -69,6 +69,44 @@
     "hispanic": 0.583,
     "asian": 0.212
   },
+  "yearly_spreads": {
+    "2018": {
+      "white": 0.608,
+      "asian": 0.431,
+      "hispanic": 0.879,
+      "black": 0.864
+    },
+    "2019": {
+      "white": 0.585,
+      "black": 0.75,
+      "hispanic": 0.807,
+      "asian": 0.335
+    },
+    "2020": {
+      "white": 0.264,
+      "black": 0.474,
+      "asian": 0.135,
+      "hispanic": 0.5
+    },
+    "2021": {
+      "black": 0.519,
+      "white": 0.349,
+      "asian": 0.2,
+      "hispanic": 0.536
+    },
+    "2022": {
+      "white": 0.375,
+      "asian": 0.215,
+      "black": 0.537,
+      "hispanic": 0.572
+    },
+    "2023": {
+      "white": 0.344,
+      "hispanic": 0.402,
+      "black": 0.328,
+      "asian": 0.101
+    }
+  },
   "by_state": {
     "Alaska": {
       "total_loans": 67124,
@@ -150,6 +188,44 @@
         "asian": 3402,
         "black": 1654,
         "hispanic": 3323
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.284,
+          "asian": 0.337,
+          "black": 0.223,
+          "hispanic": 0.296
+        },
+        "2023": {
+          "white": 0.179,
+          "hispanic": 0.144,
+          "black": 0.059,
+          "asian": 0.169
+        },
+        "2018": {
+          "white": 0.391,
+          "asian": 0.425,
+          "hispanic": 0.418,
+          "black": 0.421
+        },
+        "2019": {
+          "white": 0.265,
+          "black": 0.26,
+          "hispanic": 0.266,
+          "asian": 0.341
+        },
+        "2020": {
+          "white": 0.098,
+          "black": 0.101,
+          "asian": 0.212,
+          "hispanic": 0.156
+        },
+        "2021": {
+          "black": 0.164,
+          "white": 0.175,
+          "asian": 0.286,
+          "hispanic": 0.213
+        }
       }
     },
     "Alabama": {
@@ -233,6 +309,44 @@
         "black": 68177,
         "asian": 7838,
         "hispanic": 11302
+      },
+      "yearly_spreads": {
+        "2023": {
+          "white": 0.529,
+          "black": 0.545,
+          "asian": 0.17,
+          "hispanic": 0.541
+        },
+        "2022": {
+          "white": 0.553,
+          "black": 0.711,
+          "hispanic": 0.476,
+          "asian": 0.314
+        },
+        "2019": {
+          "white": 0.765,
+          "black": 1.066,
+          "asian": 0.461,
+          "hispanic": 1.118
+        },
+        "2018": {
+          "white": 0.826,
+          "black": 1.115,
+          "hispanic": 1.064,
+          "asian": 0.474
+        },
+        "2021": {
+          "white": 0.529,
+          "black": 0.749,
+          "hispanic": 0.631,
+          "asian": 0.278
+        },
+        "2020": {
+          "white": 0.439,
+          "asian": 0.197,
+          "black": 0.743,
+          "hispanic": 0.62
+        }
       }
     },
     "Arkansas": {
@@ -316,6 +430,44 @@
         "asian": 6859,
         "black": 23356,
         "hispanic": 17157
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.648,
+          "asian": 0.273,
+          "black": 0.878,
+          "hispanic": 0.795
+        },
+        "2023": {
+          "white": 0.63,
+          "black": 0.772,
+          "hispanic": 0.584,
+          "asian": 0.165
+        },
+        "2018": {
+          "white": 0.83,
+          "asian": 0.508,
+          "hispanic": 0.972,
+          "black": 1.185
+        },
+        "2019": {
+          "white": 0.768,
+          "black": 1.063,
+          "hispanic": 0.931,
+          "asian": 0.448
+        },
+        "2020": {
+          "white": 0.422,
+          "asian": 0.141,
+          "hispanic": 0.575,
+          "black": 0.744
+        },
+        "2021": {
+          "white": 0.54,
+          "asian": 0.26,
+          "hispanic": 0.665,
+          "black": 0.824
+        }
       }
     },
     "Arizona": {
@@ -398,6 +550,44 @@
         "hispanic": 78251,
         "black": 13168,
         "asian": 15344
+      },
+      "yearly_spreads": {
+        "2021": {
+          "white": 0.305,
+          "black": 0.403,
+          "hispanic": 0.527,
+          "asian": 0.194
+        },
+        "2018": {
+          "white": 0.705,
+          "hispanic": 1.097,
+          "asian": 0.557,
+          "black": 0.912
+        },
+        "2022": {
+          "white": 0.414,
+          "hispanic": 0.605,
+          "black": 0.463,
+          "asian": 0.212
+        },
+        "2019": {
+          "white": 0.539,
+          "hispanic": 0.869,
+          "asian": 0.388,
+          "black": 0.68
+        },
+        "2023": {
+          "hispanic": 0.356,
+          "white": 0.336,
+          "asian": -0.105,
+          "black": 0.257
+        },
+        "2020": {
+          "white": 0.231,
+          "hispanic": 0.492,
+          "asian": 0.122,
+          "black": 0.355
+        }
       }
     },
     "California": {
@@ -480,6 +670,44 @@
         "white": 211304,
         "hispanic": 85934,
         "black": 16150
+      },
+      "yearly_spreads": {
+        "2019": {
+          "asian": 0.122,
+          "white": 0.499,
+          "hispanic": 0.543,
+          "black": 0.445
+        },
+        "2018": {
+          "white": 0.424,
+          "asian": 0.284,
+          "black": 0.629,
+          "hispanic": 0.719
+        },
+        "2020": {
+          "hispanic": 0.299,
+          "white": 0.107,
+          "asian": 0.007,
+          "black": 0.205
+        },
+        "2021": {
+          "white": 0.164,
+          "hispanic": 0.357,
+          "asian": 0.052,
+          "black": 0.272
+        },
+        "2023": {
+          "white": 0.327,
+          "asian": 0.091,
+          "hispanic": 0.427,
+          "black": 0.205
+        },
+        "2022": {
+          "asian": 0.039,
+          "black": 0.359,
+          "hispanic": 0.466,
+          "white": 0.184
+        }
       }
     },
     "Colorado": {
@@ -562,6 +790,44 @@
         "hispanic": 45574,
         "black": 11149,
         "asian": 14355
+      },
+      "yearly_spreads": {
+        "2018": {
+          "white": 0.561,
+          "hispanic": 0.895,
+          "asian": 0.428,
+          "black": 0.708
+        },
+        "2019": {
+          "white": 0.385,
+          "black": 0.46,
+          "hispanic": 0.67,
+          "asian": -0.012
+        },
+        "2021": {
+          "white": 0.201,
+          "hispanic": 0.382,
+          "black": 0.259,
+          "asian": 0.024
+        },
+        "2022": {
+          "hispanic": 0.392,
+          "white": 0.221,
+          "black": 0.244,
+          "asian": 0.112
+        },
+        "2020": {
+          "white": 0.123,
+          "hispanic": 0.328,
+          "black": 0.153,
+          "asian": 0.066
+        },
+        "2023": {
+          "white": 0.189,
+          "hispanic": 0.112,
+          "asian": -0.116,
+          "black": -0.046
+        }
       }
     },
     "Connecticut": {
@@ -644,6 +910,44 @@
         "hispanic": 42362,
         "black": 27503,
         "asian": 18567
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.164,
+          "hispanic": 0.535,
+          "black": 0.446,
+          "asian": 0.125
+        },
+        "2023": {
+          "hispanic": -0.214,
+          "white": -0.031,
+          "asian": -0.154,
+          "black": -0.404
+        },
+        "2018": {
+          "white": 0.394,
+          "asian": 0.313,
+          "hispanic": 0.751,
+          "black": 0.808
+        },
+        "2019": {
+          "white": 0.415,
+          "hispanic": 0.824,
+          "asian": 0.274,
+          "black": 0.825
+        },
+        "2020": {
+          "white": 0.253,
+          "asian": 0.136,
+          "hispanic": 0.615,
+          "black": 0.641
+        },
+        "2021": {
+          "white": 0.313,
+          "asian": 0.192,
+          "hispanic": 0.634,
+          "black": 0.646
+        }
       }
     },
     "Washington DC": {
@@ -722,6 +1026,44 @@
         "hispanic": 4682,
         "white": 46073,
         "asian": 4925
+      },
+      "yearly_spreads": {
+        "2022": {
+          "black": 0.374,
+          "hispanic": 0.216,
+          "white": -0.032,
+          "asian": -0.037
+        },
+        "2023": {
+          "white": 0.028,
+          "hispanic": 0.216,
+          "asian": -0.055,
+          "black": 0.307
+        },
+        "2018": {
+          "white": 0.15,
+          "black": 0.575,
+          "asian": 0.125,
+          "hispanic": 0.359
+        },
+        "2019": {
+          "white": 0.11,
+          "asian": 0.09,
+          "hispanic": 0.256,
+          "black": 0.53
+        },
+        "2020": {
+          "black": 0.28,
+          "hispanic": 0.095,
+          "white": 0.006,
+          "asian": 0.013
+        },
+        "2021": {
+          "asian": 0.053,
+          "black": 0.307,
+          "white": 0.071,
+          "hispanic": 0.184
+        }
       }
     },
     "Delaware": {
@@ -805,6 +1147,44 @@
         "hispanic": 7561,
         "black": 24115,
         "asian": 6517
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.402,
+          "hispanic": 0.859,
+          "black": 0.709,
+          "asian": 0.238
+        },
+        "2023": {
+          "white": 0.474,
+          "black": 0.561,
+          "hispanic": 0.754,
+          "asian": 0.229
+        },
+        "2018": {
+          "white": 0.621,
+          "black": 1.043,
+          "hispanic": 1.163,
+          "asian": 0.334
+        },
+        "2019": {
+          "white": 0.599,
+          "asian": 0.292,
+          "black": 0.909,
+          "hispanic": 1.087
+        },
+        "2020": {
+          "white": 0.304,
+          "asian": 0.107,
+          "black": 0.601,
+          "hispanic": 0.692
+        },
+        "2021": {
+          "black": 0.636,
+          "white": 0.382,
+          "hispanic": 0.696,
+          "asian": 0.187
+        }
       }
     },
     "Florida": {
@@ -888,6 +1268,44 @@
         "black": 36891,
         "hispanic": 90041,
         "asian": 12156
+      },
+      "yearly_spreads": {
+        "2018": {
+          "white": 0.675,
+          "black": 0.973,
+          "hispanic": 0.958,
+          "asian": 0.59
+        },
+        "2020": {
+          "white": 0.333,
+          "hispanic": 0.566,
+          "asian": 0.219,
+          "black": 0.579
+        },
+        "2019": {
+          "white": 0.808,
+          "hispanic": 0.901,
+          "black": 0.862,
+          "asian": 0.459
+        },
+        "2021": {
+          "white": 0.39,
+          "hispanic": 0.587,
+          "asian": 0.289,
+          "black": 0.581
+        },
+        "2023": {
+          "white": 0.328,
+          "black": 0.233,
+          "hispanic": 0.351,
+          "asian": 0.065
+        },
+        "2022": {
+          "black": 0.476,
+          "white": 0.389,
+          "hispanic": 0.591,
+          "asian": 0.249
+        }
       }
     },
     "Georgia": {
@@ -971,6 +1389,44 @@
         "hispanic": 27731,
         "white": 265986,
         "asian": 25866
+      },
+      "yearly_spreads": {
+        "2021": {
+          "black": 0.566,
+          "white": 0.382,
+          "asian": 0.153,
+          "hispanic": 0.622
+        },
+        "2018": {
+          "hispanic": 0.922,
+          "white": 0.622,
+          "black": 0.969,
+          "asian": 0.486
+        },
+        "2023": {
+          "white": 0.442,
+          "black": 0.363,
+          "hispanic": 0.521,
+          "asian": 0.129
+        },
+        "2019": {
+          "black": 0.826,
+          "white": 0.571,
+          "asian": 0.343,
+          "hispanic": 0.867
+        },
+        "2020": {
+          "white": 0.309,
+          "hispanic": 0.559,
+          "asian": 0.121,
+          "black": 0.542
+        },
+        "2022": {
+          "white": 0.446,
+          "black": 0.581,
+          "hispanic": 0.725,
+          "asian": 0.227
+        }
       }
     },
     "Hawaii": {
@@ -1052,6 +1508,44 @@
         "white": 39019,
         "hispanic": 5828,
         "black": 2894
+      },
+      "yearly_spreads": {
+        "2022": {
+          "asian": -0.387,
+          "white": -0.126,
+          "hispanic": -0.086,
+          "black": -0.099
+        },
+        "2023": {
+          "white": 0.069,
+          "asian": -0.079,
+          "black": -0.216,
+          "hispanic": 0.025
+        },
+        "2018": {
+          "white": 0.127,
+          "asian": -0.096,
+          "hispanic": 0.139,
+          "black": 0.186
+        },
+        "2019": {
+          "white": 0.127,
+          "asian": 0.044,
+          "hispanic": 0.139,
+          "black": 0.086
+        },
+        "2020": {
+          "white": -0.081,
+          "asian": -0.016,
+          "black": -0.259,
+          "hispanic": -0.104
+        },
+        "2021": {
+          "black": -0.115,
+          "asian": 0.096,
+          "white": 0.051,
+          "hispanic": 0.013
+        }
       }
     },
     "Iowa": {
@@ -1135,6 +1629,44 @@
         "asian": 9376,
         "black": 7734,
         "hispanic": 16204
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.475,
+          "asian": 0.327,
+          "black": 0.666,
+          "hispanic": 0.724
+        },
+        "2023": {
+          "white": 0.351,
+          "hispanic": 0.455,
+          "black": 0.289,
+          "asian": 0.083
+        },
+        "2018": {
+          "white": 1.026,
+          "hispanic": 0.929,
+          "black": 1.026,
+          "asian": 0.47
+        },
+        "2019": {
+          "white": 0.519,
+          "hispanic": 0.867,
+          "asian": 0.356,
+          "black": 0.917
+        },
+        "2020": {
+          "white": 0.269,
+          "hispanic": 0.727,
+          "asian": 0.132,
+          "black": 0.616
+        },
+        "2021": {
+          "white": 0.384,
+          "black": 0.613,
+          "hispanic": 0.692,
+          "asian": 0.211
+        }
       }
     },
     "Idaho": {
@@ -1217,6 +1749,44 @@
         "hispanic": 20952,
         "asian": 4015,
         "black": 1402
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.401,
+          "hispanic": 0.649,
+          "asian": 0.266,
+          "black": 0.541
+        },
+        "2023": {
+          "white": 0.484,
+          "hispanic": 0.645,
+          "asian": 0.15,
+          "black": 0.334
+        },
+        "2018": {
+          "white": 0.671,
+          "hispanic": 0.975,
+          "asian": 0.497,
+          "black": 0.89
+        },
+        "2019": {
+          "white": 0.556,
+          "hispanic": 0.829,
+          "asian": 0.431,
+          "black": 0.605
+        },
+        "2020": {
+          "white": 0.264,
+          "asian": 0.133,
+          "hispanic": 0.493,
+          "black": 0.355
+        },
+        "2021": {
+          "white": 0.319,
+          "hispanic": 0.501,
+          "asian": 0.234,
+          "black": 0.404
+        }
       }
     },
     "Illinois": {
@@ -1300,6 +1870,44 @@
         "asian": 31958,
         "black": 31789,
         "hispanic": 52291
+      },
+      "yearly_spreads": {
+        "2021": {
+          "white": 0.335,
+          "black": 0.658,
+          "asian": 0.143,
+          "hispanic": 0.602
+        },
+        "2018": {
+          "white": 0.616,
+          "hispanic": 1.017,
+          "asian": 0.421,
+          "black": 1.098
+        },
+        "2022": {
+          "asian": 0.261,
+          "white": 0.451,
+          "black": 0.718,
+          "hispanic": 0.718
+        },
+        "2019": {
+          "white": 0.508,
+          "black": 0.939,
+          "asian": 0.316,
+          "hispanic": 0.902
+        },
+        "2020": {
+          "white": 0.214,
+          "asian": 0.101,
+          "hispanic": 0.546,
+          "black": 0.58
+        },
+        "2023": {
+          "white": 0.354,
+          "black": 0.165,
+          "hispanic": 0.348,
+          "asian": 0.244
+        }
       }
     },
     "Indiana": {
@@ -1383,6 +1991,44 @@
         "black": 22475,
         "hispanic": 19914,
         "asian": 12950
+      },
+      "yearly_spreads": {
+        "2023": {
+          "white": 0.498,
+          "black": 0.419,
+          "asian": -0.488,
+          "hispanic": 0.509
+        },
+        "2021": {
+          "white": 0.493,
+          "hispanic": 0.717,
+          "black": 0.661,
+          "asian": 0.263
+        },
+        "2018": {
+          "white": 0.797,
+          "black": 1.042,
+          "hispanic": 1.077,
+          "asian": 0.566
+        },
+        "2020": {
+          "white": 0.393,
+          "black": 0.661,
+          "hispanic": 0.664,
+          "asian": 0.208
+        },
+        "2022": {
+          "white": 0.539,
+          "black": 0.625,
+          "hispanic": 0.77,
+          "asian": 0.259
+        },
+        "2019": {
+          "white": 0.714,
+          "hispanic": 1.049,
+          "black": 0.985,
+          "asian": 0.511
+        }
       }
     },
     "Kansas": {
@@ -1466,6 +2112,44 @@
         "hispanic": 19596,
         "asian": 9526,
         "black": 9043
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.525,
+          "hispanic": 0.739,
+          "asian": 0.3,
+          "black": 0.683
+        },
+        "2023": {
+          "white": 0.468,
+          "hispanic": 0.62,
+          "asian": 0.246,
+          "black": 0.518
+        },
+        "2018": {
+          "white": 0.632,
+          "black": 0.835,
+          "hispanic": 0.945,
+          "asian": 0.442
+        },
+        "2019": {
+          "white": 0.558,
+          "hispanic": 0.884,
+          "black": 0.82,
+          "asian": 0.435
+        },
+        "2020": {
+          "asian": 0.139,
+          "white": 0.3,
+          "hispanic": 0.591,
+          "black": 0.5
+        },
+        "2021": {
+          "white": 0.413,
+          "hispanic": 0.641,
+          "asian": 0.201,
+          "black": 0.583
+        }
       }
     },
     "Kentucky": {
@@ -1549,6 +2233,44 @@
         "black": 21052,
         "hispanic": 13969,
         "asian": 8922
+      },
+      "yearly_spreads": {
+        "2023": {
+          "white": 0.57,
+          "black": 0.438,
+          "asian": 0.161,
+          "hispanic": -0.01
+        },
+        "2022": {
+          "white": 0.558,
+          "black": 0.612,
+          "hispanic": 0.374,
+          "asian": 0.314
+        },
+        "2019": {
+          "white": 0.766,
+          "black": 0.897,
+          "hispanic": 0.922,
+          "asian": 0.431
+        },
+        "2018": {
+          "white": 0.793,
+          "hispanic": 0.914,
+          "black": 0.937,
+          "asian": 0.54
+        },
+        "2021": {
+          "white": 0.517,
+          "black": 0.619,
+          "hispanic": 0.482,
+          "asian": 0.229
+        },
+        "2020": {
+          "white": 0.433,
+          "hispanic": 0.502,
+          "black": 0.578,
+          "asian": 0.199
+        }
       }
     },
     "Louisiana": {
@@ -1632,6 +2354,44 @@
         "black": 77661,
         "hispanic": 14087,
         "asian": 7862
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.659,
+          "black": 0.954,
+          "hispanic": 0.792,
+          "asian": 0.368
+        },
+        "2023": {
+          "white": 0.61,
+          "hispanic": 0.681,
+          "black": 0.757,
+          "asian": 0.197
+        },
+        "2018": {
+          "white": 0.833,
+          "asian": 0.575,
+          "black": 1.312,
+          "hispanic": 0.986
+        },
+        "2019": {
+          "black": 1.313,
+          "white": 0.834,
+          "asian": 0.54,
+          "hispanic": 1.005
+        },
+        "2020": {
+          "white": 0.446,
+          "black": 0.927,
+          "hispanic": 0.618,
+          "asian": 0.327
+        },
+        "2021": {
+          "white": 0.557,
+          "black": 0.921,
+          "asian": 0.28,
+          "hispanic": 0.699
+        }
       }
     },
     "Massachusetts": {
@@ -1713,6 +2473,44 @@
         "hispanic": 30243,
         "asian": 34326,
         "black": 19963
+      },
+      "yearly_spreads": {
+        "2020": {
+          "white": 0.131,
+          "asian": -0.007,
+          "hispanic": 0.422,
+          "black": 0.407
+        },
+        "2023": {
+          "white": 0.155,
+          "asian": -0.014,
+          "black": 0.284,
+          "hispanic": 0.359
+        },
+        "2022": {
+          "hispanic": 0.41,
+          "white": 0.019,
+          "black": 0.332,
+          "asian": -0.099
+        },
+        "2021": {
+          "white": 0.21,
+          "hispanic": 0.478,
+          "black": 0.457,
+          "asian": 0.052
+        },
+        "2018": {
+          "white": 0.285,
+          "hispanic": 0.602,
+          "asian": 0.145,
+          "black": 0.595
+        },
+        "2019": {
+          "asian": 0.109,
+          "white": 0.28,
+          "hispanic": 0.635,
+          "black": 0.587
+        }
       }
     },
     "Maryland": {
@@ -1796,6 +2594,44 @@
         "black": 99729,
         "asian": 32297,
         "hispanic": 32047
+      },
+      "yearly_spreads": {
+        "2020": {
+          "white": 0.162,
+          "black": 0.411,
+          "hispanic": 0.474,
+          "asian": 0.043
+        },
+        "2022": {
+          "black": 0.553,
+          "asian": 0.159,
+          "hispanic": 0.7,
+          "white": 0.275
+        },
+        "2021": {
+          "white": 0.249,
+          "asian": 0.108,
+          "black": 0.448,
+          "hispanic": 0.503
+        },
+        "2018": {
+          "white": 0.427,
+          "black": 0.816,
+          "hispanic": 0.908,
+          "asian": 0.326
+        },
+        "2023": {
+          "asian": 0.191,
+          "white": 0.37,
+          "black": 0.435,
+          "hispanic": 0.683
+        },
+        "2019": {
+          "white": 0.391,
+          "hispanic": 0.884,
+          "asian": 0.26,
+          "black": 0.684
+        }
       }
     },
     "Maine": {
@@ -1878,6 +2714,44 @@
         "hispanic": 1774,
         "black": 1696,
         "asian": 1549
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.376,
+          "hispanic": 0.469,
+          "black": 0.773,
+          "asian": 0.342
+        },
+        "2023": {
+          "hispanic": 0.464,
+          "white": 0.466,
+          "asian": 0.338,
+          "black": 0.542
+        },
+        "2018": {
+          "white": 0.637,
+          "hispanic": 0.663,
+          "asian": 0.489,
+          "black": 0.693
+        },
+        "2019": {
+          "white": 0.617,
+          "asian": 0.479,
+          "hispanic": 0.708,
+          "black": 0.766
+        },
+        "2020": {
+          "white": 0.314,
+          "hispanic": 0.369,
+          "black": 0.566,
+          "asian": 0.227
+        },
+        "2021": {
+          "white": 0.433,
+          "hispanic": 0.501,
+          "black": 0.687,
+          "asian": 0.384
+        }
       }
     },
     "Michigan": {
@@ -1961,6 +2835,44 @@
         "asian": 15742,
         "black": 23160,
         "hispanic": 11912
+      },
+      "yearly_spreads": {
+        "2021": {
+          "white": 0.482,
+          "black": 0.804,
+          "asian": 0.125,
+          "hispanic": 0.673
+        },
+        "2018": {
+          "white": 0.764,
+          "asian": 0.401,
+          "hispanic": 0.985,
+          "black": 1.165
+        },
+        "2022": {
+          "asian": 0.25,
+          "white": 0.557,
+          "hispanic": 0.79,
+          "black": 0.807
+        },
+        "2019": {
+          "white": 0.723,
+          "black": 1.098,
+          "asian": 0.324,
+          "hispanic": 0.965
+        },
+        "2020": {
+          "white": 0.393,
+          "hispanic": 0.589,
+          "asian": -0.007,
+          "black": 0.824
+        },
+        "2023": {
+          "white": 0.567,
+          "black": 0.793,
+          "hispanic": 0.689,
+          "asian": 0.177
+        }
       }
     },
     "Minnesota": {
@@ -2044,6 +2956,44 @@
         "black": 14554,
         "hispanic": 13986,
         "asian": 21492
+      },
+      "yearly_spreads": {
+        "2020": {
+          "white": 0.211,
+          "black": 0.403,
+          "hispanic": 0.453,
+          "asian": 0.163
+        },
+        "2023": {
+          "white": 0.261,
+          "black": 0.026,
+          "hispanic": 0.201,
+          "asian": 0.134
+        },
+        "2022": {
+          "white": 0.367,
+          "asian": 0.306,
+          "hispanic": 0.524,
+          "black": 0.434
+        },
+        "2018": {
+          "white": 0.574,
+          "asian": 0.622,
+          "hispanic": 0.982,
+          "black": 0.858
+        },
+        "2021": {
+          "white": 0.307,
+          "hispanic": 0.466,
+          "asian": 0.249,
+          "black": 0.449
+        },
+        "2019": {
+          "white": 0.472,
+          "asian": 0.423,
+          "black": 0.636,
+          "hispanic": 0.695
+        }
       }
     },
     "Missouri": {
@@ -2127,6 +3077,38 @@
         "black": 23139,
         "hispanic": 11187,
         "asian": 9774
+      },
+      "yearly_spreads": {
+        "2023": {
+          "white": 0.48,
+          "hispanic": 0.481,
+          "black": 0.426,
+          "asian": -0.107
+        },
+        "2022": {
+          "white": 0.538,
+          "black": 0.622,
+          "hispanic": 0.608,
+          "asian": 0.298
+        },
+        "2018": {
+          "white": 0.705,
+          "hispanic": 0.9,
+          "asian": 0.46,
+          "black": 0.993
+        },
+        "2020": {
+          "white": 0.305,
+          "asian": 0.111,
+          "hispanic": 0.511,
+          "black": 0.559
+        },
+        "2019": {
+          "white": 0.585,
+          "asian": 0.362,
+          "black": 0.838,
+          "hispanic": 0.783
+        }
       }
     },
     "Mississippi": {
@@ -2210,6 +3192,20 @@
         "black": 16506,
         "asian": 1017,
         "hispanic": 1780
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.534,
+          "black": 0.857,
+          "asian": 0.357,
+          "hispanic": 0.597
+        },
+        "2023": {
+          "white": 0.482,
+          "black": 0.674,
+          "hispanic": 0.546,
+          "asian": 0.135
+        }
       }
     },
     "Montana": {
@@ -2285,6 +3281,20 @@
         "hispanic": 547,
         "asian": 190,
         "black": 87
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.403,
+          "hispanic": 0.437,
+          "asian": 0.299,
+          "black": 0.487
+        },
+        "2023": {
+          "white": 0.37,
+          "hispanic": 0.333,
+          "asian": 0.226,
+          "black": 0.329
+        }
       }
     },
     "North Carolina": {
@@ -2368,6 +3378,20 @@
         "black": 25675,
         "hispanic": 12760,
         "asian": 9469
+      },
+      "yearly_spreads": {
+        "2023": {
+          "white": 0.12,
+          "asian": -0.086,
+          "black": 0.029,
+          "hispanic": 0.161
+        },
+        "2022": {
+          "white": 0.238,
+          "black": 0.329,
+          "hispanic": 0.485,
+          "asian": 0.052
+        }
       }
     },
     "North Dakota": {
@@ -2447,6 +3471,20 @@
         "hispanic": 483,
         "black": 337,
         "asian": 266
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.37,
+          "hispanic": 0.545,
+          "black": 0.506,
+          "asian": 0.23
+        },
+        "2023": {
+          "white": 0.316,
+          "asian": 0.183,
+          "hispanic": 0.391,
+          "black": 0.233
+        }
       }
     },
     "Nebraska": {
@@ -2529,6 +3567,20 @@
         "hispanic": 4628,
         "black": 1495,
         "asian": 1552
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.452,
+          "hispanic": 0.507,
+          "black": 0.437,
+          "asian": 0.294
+        },
+        "2023": {
+          "white": 0.296,
+          "asian": 0.097,
+          "hispanic": 0.229,
+          "black": 0.224
+        }
       }
     },
     "New Hampshire": {
@@ -2608,6 +3660,20 @@
         "hispanic": 1205,
         "black": 380,
         "asian": 1070
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.317,
+          "hispanic": 0.518,
+          "black": 0.567,
+          "asian": 0.233
+        },
+        "2023": {
+          "hispanic": 0.489,
+          "white": 0.308,
+          "asian": 0.339,
+          "black": 0.363
+        }
       }
     },
     "New Jersey": {
@@ -2689,6 +3755,20 @@
         "white": 104687,
         "black": 15999,
         "hispanic": 24076
+      },
+      "yearly_spreads": {
+        "2023": {
+          "asian": 0.134,
+          "white": 0.346,
+          "hispanic": 0.519,
+          "black": 0.433
+        },
+        "2022": {
+          "asian": 0.046,
+          "white": 0.24,
+          "black": 0.536,
+          "hispanic": 0.567
+        }
       }
     },
     "New Mexico": {
@@ -2771,6 +3851,44 @@
         "white": 92638,
         "black": 3003,
         "asian": 3227
+      },
+      "yearly_spreads": {
+        "2022": {
+          "hispanic": 0.868,
+          "white": 0.532,
+          "black": 0.533,
+          "asian": 0.37
+        },
+        "2023": {
+          "hispanic": 0.734,
+          "white": 0.475,
+          "asian": 0.236,
+          "black": 0.301
+        },
+        "2018": {
+          "white": 0.733,
+          "asian": 0.637,
+          "hispanic": 1.213,
+          "black": 0.89
+        },
+        "2019": {
+          "white": 0.631,
+          "hispanic": 1.094,
+          "asian": 0.42,
+          "black": 0.617
+        },
+        "2020": {
+          "white": 0.361,
+          "hispanic": 0.832,
+          "asian": 0.233,
+          "black": 0.464
+        },
+        "2021": {
+          "white": 0.349,
+          "hispanic": 0.604,
+          "asian": 0.226,
+          "black": 0.499
+        }
       }
     },
     "Nevada": {
@@ -2853,6 +3971,44 @@
         "black": 25907,
         "hispanic": 77359,
         "asian": 37836
+      },
+      "yearly_spreads": {
+        "2018": {
+          "white": 0.65,
+          "hispanic": 0.999,
+          "black": 0.779,
+          "asian": 0.664
+        },
+        "2022": {
+          "white": 0.395,
+          "asian": 0.329,
+          "hispanic": 0.63,
+          "black": 0.4
+        },
+        "2020": {
+          "white": 0.207,
+          "hispanic": 0.5,
+          "black": 0.291,
+          "asian": 0.256
+        },
+        "2019": {
+          "black": 0.633,
+          "white": 0.502,
+          "hispanic": 0.889,
+          "asian": 0.543
+        },
+        "2021": {
+          "black": 0.365,
+          "hispanic": 0.575,
+          "white": 0.305,
+          "asian": 0.302
+        },
+        "2023": {
+          "white": 0.307,
+          "hispanic": 0.313,
+          "asian": 0.072,
+          "black": 0.202
+        }
       }
     },
     "New York": {
@@ -2935,6 +4091,44 @@
         "asian": 43313,
         "black": 29444,
         "hispanic": 33596
+      },
+      "yearly_spreads": {
+        "2018": {
+          "white": 0.443,
+          "black": 0.735,
+          "asian": 0.383,
+          "hispanic": 0.672
+        },
+        "2023": {
+          "white": 0.223,
+          "asian": 0.092,
+          "hispanic": 0.405,
+          "black": 0.315
+        },
+        "2019": {
+          "white": 0.43,
+          "black": 0.715,
+          "asian": 0.312,
+          "hispanic": 0.69
+        },
+        "2021": {
+          "white": 0.353,
+          "asian": 0.32,
+          "hispanic": 0.468,
+          "black": 0.541
+        },
+        "2020": {
+          "white": 0.282,
+          "hispanic": 0.446,
+          "black": 0.529,
+          "asian": 0.215
+        },
+        "2022": {
+          "black": 0.437,
+          "white": 0.22,
+          "hispanic": 0.471,
+          "asian": 0.135
+        }
       }
     },
     "Ohio": {
@@ -3018,6 +4212,44 @@
         "asian": 12762,
         "black": 25240,
         "hispanic": 9628
+      },
+      "yearly_spreads": {
+        "2021": {
+          "white": 0.464,
+          "black": 0.685,
+          "asian": 0.203,
+          "hispanic": 0.653
+        },
+        "2018": {
+          "asian": 0.375,
+          "white": 0.726,
+          "black": 1.004,
+          "hispanic": 0.915
+        },
+        "2022": {
+          "white": 0.47,
+          "asian": 0.25,
+          "hispanic": 0.71,
+          "black": 0.698
+        },
+        "2019": {
+          "white": 0.656,
+          "black": 0.983,
+          "asian": 0.324,
+          "hispanic": 0.93
+        },
+        "2023": {
+          "white": 0.564,
+          "asian": 0.226,
+          "black": 0.614,
+          "hispanic": 0.717
+        },
+        "2020": {
+          "white": 0.375,
+          "black": 0.662,
+          "asian": 0.11,
+          "hispanic": 0.605
+        }
       }
     },
     "Oklahoma": {
@@ -3101,6 +4333,44 @@
         "hispanic": 25306,
         "black": 15695,
         "asian": 10140
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.643,
+          "hispanic": 0.863,
+          "black": 0.702,
+          "asian": 0.444
+        },
+        "2023": {
+          "white": 0.569,
+          "black": 0.484,
+          "asian": 0.309,
+          "hispanic": 0.641
+        },
+        "2018": {
+          "white": 0.89,
+          "hispanic": 1.179,
+          "asian": 0.654,
+          "black": 1.009
+        },
+        "2019": {
+          "black": 0.945,
+          "white": 0.803,
+          "asian": 0.515,
+          "hispanic": 1.261
+        },
+        "2020": {
+          "white": 0.424,
+          "black": 0.463,
+          "asian": 0.289,
+          "hispanic": 0.828
+        },
+        "2021": {
+          "white": 0.566,
+          "black": 0.642,
+          "asian": 0.428,
+          "hispanic": 0.837
+        }
       }
     },
     "Oregon": {
@@ -3183,6 +4453,44 @@
         "white": 354640,
         "hispanic": 24817,
         "asian": 20324
+      },
+      "yearly_spreads": {
+        "2023": {
+          "black": 0.345,
+          "white": 0.447,
+          "asian": 0.1,
+          "hispanic": 0.542
+        },
+        "2022": {
+          "white": 0.378,
+          "hispanic": 0.605,
+          "asian": 0.13,
+          "black": 0.408
+        },
+        "2019": {
+          "white": 0.481,
+          "hispanic": 0.75,
+          "asian": 0.282,
+          "black": 0.544
+        },
+        "2018": {
+          "white": 0.572,
+          "hispanic": 0.838,
+          "asian": 0.367,
+          "black": 0.664
+        },
+        "2021": {
+          "white": 0.291,
+          "hispanic": 0.486,
+          "asian": 0.151,
+          "black": 0.327
+        },
+        "2020": {
+          "white": 0.218,
+          "asian": 0.075,
+          "hispanic": 0.436,
+          "black": 0.259
+        }
       }
     },
     "Pennsylvania": {
@@ -3266,6 +4574,44 @@
         "asian": 19590,
         "black": 23151,
         "hispanic": 19874
+      },
+      "yearly_spreads": {
+        "2018": {
+          "white": 0.463,
+          "black": 0.911,
+          "asian": 0.328,
+          "hispanic": 0.898
+        },
+        "2023": {
+          "asian": 0.184,
+          "white": 0.27,
+          "black": 0.461,
+          "hispanic": 0.502
+        },
+        "2019": {
+          "white": 0.501,
+          "asian": 0.295,
+          "hispanic": 0.888,
+          "black": 0.932
+        },
+        "2021": {
+          "white": 0.384,
+          "hispanic": 0.639,
+          "black": 0.647,
+          "asian": 0.177
+        },
+        "2020": {
+          "asian": 0.116,
+          "white": 0.308,
+          "black": 0.648,
+          "hispanic": 0.616
+        },
+        "2022": {
+          "white": 0.244,
+          "black": 0.597,
+          "hispanic": 0.664,
+          "asian": 0.175
+        }
       }
     },
     "Rhode Island": {
@@ -3347,6 +4693,44 @@
         "hispanic": 13772,
         "white": 124349,
         "asian": 3365
+      },
+      "yearly_spreads": {
+        "2022": {
+          "black": 0.576,
+          "hispanic": 0.533,
+          "white": 0.186,
+          "asian": 0.277
+        },
+        "2023": {
+          "black": 0.522,
+          "white": 0.266,
+          "hispanic": 0.536,
+          "asian": 0.172
+        },
+        "2018": {
+          "white": 0.378,
+          "black": 0.965,
+          "hispanic": 0.985,
+          "asian": 0.446
+        },
+        "2019": {
+          "white": 0.401,
+          "hispanic": 1.193,
+          "black": 0.763,
+          "asian": 0.372
+        },
+        "2020": {
+          "white": 0.25,
+          "black": 0.588,
+          "hispanic": 0.662,
+          "asian": 0.267
+        },
+        "2021": {
+          "white": 0.33,
+          "black": 0.56,
+          "asian": 0.272,
+          "hispanic": 0.612
+        }
       }
     },
     "South Carolina": {
@@ -3430,6 +4814,44 @@
         "black": 56604,
         "asian": 9053,
         "hispanic": 17405
+      },
+      "yearly_spreads": {
+        "2021": {
+          "white": 0.413,
+          "black": 0.773,
+          "hispanic": 0.604,
+          "asian": 0.203
+        },
+        "2023": {
+          "white": 0.335,
+          "black": 0.461,
+          "hispanic": 0.369,
+          "asian": 0.093
+        },
+        "2022": {
+          "white": 0.443,
+          "black": 0.689,
+          "hispanic": 0.644,
+          "asian": 0.199
+        },
+        "2018": {
+          "white": 0.65,
+          "black": 1.122,
+          "asian": 0.47,
+          "hispanic": 0.877
+        },
+        "2020": {
+          "asian": 0.168,
+          "black": 0.796,
+          "white": 0.329,
+          "hispanic": 0.565
+        },
+        "2019": {
+          "white": 0.596,
+          "black": 1.022,
+          "hispanic": 0.8,
+          "asian": 0.354
+        }
       }
     },
     "South Dakota": {
@@ -3512,6 +4934,44 @@
         "hispanic": 2151,
         "asian": 1009,
         "black": 1005
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.465,
+          "hispanic": 0.613,
+          "asian": 0.307,
+          "black": 0.777
+        },
+        "2023": {
+          "white": 0.379,
+          "hispanic": 0.415,
+          "asian": 0.335,
+          "black": 0.423
+        },
+        "2018": {
+          "white": 0.621,
+          "hispanic": 0.814,
+          "black": 0.768,
+          "asian": 0.521
+        },
+        "2019": {
+          "white": 0.469,
+          "black": 0.505,
+          "hispanic": 0.635,
+          "asian": 0.457
+        },
+        "2020": {
+          "white": 0.108,
+          "hispanic": 0.365,
+          "black": 0.28,
+          "asian": 0.229
+        },
+        "2021": {
+          "white": 0.295,
+          "black": 0.445,
+          "hispanic": 0.557,
+          "asian": 0.262
+        }
       }
     },
     "Tennessee": {
@@ -3595,6 +5055,44 @@
         "white": 374355,
         "hispanic": 15311,
         "asian": 9686
+      },
+      "yearly_spreads": {
+        "2020": {
+          "black": 0.548,
+          "white": 0.349,
+          "asian": 0.152,
+          "hispanic": 0.594
+        },
+        "2022": {
+          "white": 0.464,
+          "black": 0.563,
+          "hispanic": 0.652,
+          "asian": 0.241
+        },
+        "2023": {
+          "white": 0.418,
+          "hispanic": 0.445,
+          "black": 0.35,
+          "asian": 0.089
+        },
+        "2021": {
+          "white": 0.411,
+          "hispanic": 0.617,
+          "black": 0.558,
+          "asian": 0.187
+        },
+        "2018": {
+          "white": 0.694,
+          "hispanic": 0.941,
+          "black": 0.886,
+          "asian": 0.445
+        },
+        "2019": {
+          "white": 0.629,
+          "black": 0.794,
+          "hispanic": 0.921,
+          "asian": 0.352
+        }
       }
     },
     "Texas": {
@@ -3678,6 +5176,44 @@
         "black": 35392,
         "asian": 34594,
         "hispanic": 98626
+      },
+      "yearly_spreads": {
+        "2018": {
+          "white": 0.741,
+          "hispanic": 1.269,
+          "black": 0.994,
+          "asian": 0.386
+        },
+        "2019": {
+          "white": 0.663,
+          "black": 0.863,
+          "asian": 0.281,
+          "hispanic": 1.211
+        },
+        "2021": {
+          "asian": 0.129,
+          "hispanic": 0.78,
+          "white": 0.427,
+          "black": 0.564
+        },
+        "2020": {
+          "white": 0.348,
+          "hispanic": 0.768,
+          "asian": 0.099,
+          "black": 0.538
+        },
+        "2022": {
+          "white": 0.493,
+          "asian": 0.124,
+          "black": 0.502,
+          "hispanic": 0.773
+        },
+        "2023": {
+          "asian": -0.07,
+          "hispanic": 0.438,
+          "white": 0.302,
+          "black": 0.138
+        }
       }
     },
     "Utah": {
@@ -3760,6 +5296,38 @@
         "hispanic": 36594,
         "asian": 10020,
         "black": 2632
+      },
+      "yearly_spreads": {
+        "2021": {
+          "white": 0.27,
+          "hispanic": 0.602,
+          "asian": 0.167,
+          "black": 0.386
+        },
+        "2018": {
+          "white": 0.707,
+          "hispanic": 1.13,
+          "asian": 0.561,
+          "black": 0.937
+        },
+        "2023": {
+          "white": 0.369,
+          "hispanic": 0.639,
+          "asian": 0.107,
+          "black": 0.369
+        },
+        "2020": {
+          "white": 0.229,
+          "hispanic": 0.575,
+          "asian": 0.131,
+          "black": 0.336
+        },
+        "2019": {
+          "white": 0.549,
+          "hispanic": 1.042,
+          "asian": 0.416,
+          "black": 0.736
+        }
       }
     },
     "Virginia": {
@@ -3843,6 +5411,44 @@
         "black": 52264,
         "hispanic": 27512,
         "asian": 36082
+      },
+      "yearly_spreads": {
+        "2021": {
+          "white": 0.238,
+          "black": 0.396,
+          "asian": 0.051,
+          "hispanic": 0.37
+        },
+        "2018": {
+          "white": 0.493,
+          "hispanic": 0.729,
+          "black": 0.721,
+          "asian": 0.325
+        },
+        "2022": {
+          "black": 0.489,
+          "white": 0.339,
+          "asian": 0.135,
+          "hispanic": 0.543
+        },
+        "2019": {
+          "white": 0.415,
+          "black": 0.592,
+          "hispanic": 0.639,
+          "asian": 0.211
+        },
+        "2023": {
+          "white": 0.341,
+          "black": 0.406,
+          "hispanic": 0.516,
+          "asian": 0.083
+        },
+        "2020": {
+          "white": 0.136,
+          "hispanic": 0.294,
+          "black": 0.293,
+          "asian": -0.003
+        }
       }
     },
     "Vermont": {
@@ -3923,6 +5529,43 @@
         "white": 57276,
         "hispanic": 777,
         "asian": 766
+      },
+      "yearly_spreads": {
+        "2022": {
+          "black": 0.119,
+          "white": 0.198,
+          "hispanic": 0.239,
+          "asian": 0.135
+        },
+        "2023": {
+          "white": 0.127,
+          "hispanic": -0.019,
+          "asian": 0.153,
+          "black": 0.088
+        },
+        "2018": {
+          "white": 0.462,
+          "hispanic": 0.629,
+          "asian": 0.215
+        },
+        "2019": {
+          "white": 0.381,
+          "black": 0.364,
+          "asian": 0.15,
+          "hispanic": 0.301
+        },
+        "2020": {
+          "white": 0.203,
+          "hispanic": 0.305,
+          "black": 0.413,
+          "asian": 0.021
+        },
+        "2021": {
+          "white": 0.321,
+          "hispanic": 0.367,
+          "black": 0.579,
+          "asian": 0.228
+        }
       }
     },
     "Washington": {
@@ -4005,6 +5648,38 @@
         "asian": 45812,
         "hispanic": 23591,
         "black": 10451
+      },
+      "yearly_spreads": {
+        "2021": {
+          "white": 0.267,
+          "asian": 0.072,
+          "black": 0.303,
+          "hispanic": 0.427
+        },
+        "2018": {
+          "white": 0.586,
+          "asian": 0.363,
+          "black": 0.689,
+          "hispanic": 0.811
+        },
+        "2023": {
+          "white": 0.296,
+          "black": 0.117,
+          "asian": -0.004,
+          "hispanic": 0.349
+        },
+        "2020": {
+          "asian": -0.011,
+          "white": 0.174,
+          "hispanic": 0.333,
+          "black": 0.198
+        },
+        "2019": {
+          "hispanic": 0.617,
+          "white": 0.427,
+          "black": 0.516,
+          "asian": 0.165
+        }
       }
     },
     "Wisconsin": {
@@ -4087,6 +5762,44 @@
         "hispanic": 15860,
         "black": 9522,
         "asian": 9897
+      },
+      "yearly_spreads": {
+        "2020": {
+          "white": 0.211,
+          "asian": 0.135,
+          "hispanic": 0.555,
+          "black": 0.706
+        },
+        "2023": {
+          "white": -0.083,
+          "asian": -0.039,
+          "hispanic": 0.182,
+          "black": 0.312
+        },
+        "2022": {
+          "white": 0.194,
+          "hispanic": 0.578,
+          "black": 0.574,
+          "asian": 0.214
+        },
+        "2021": {
+          "white": 0.278,
+          "hispanic": 0.523,
+          "black": 0.621,
+          "asian": 0.197
+        },
+        "2018": {
+          "white": 0.437,
+          "asian": 0.423,
+          "hispanic": 0.792,
+          "black": 0.862
+        },
+        "2019": {
+          "white": 0.378,
+          "asian": 0.293,
+          "hispanic": 0.638,
+          "black": 0.832
+        }
       }
     },
     "West Virginia": {
@@ -4170,6 +5883,44 @@
         "black": 3772,
         "hispanic": 2775,
         "asian": 1401
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.555,
+          "black": 0.617,
+          "hispanic": 0.607,
+          "asian": 0.339
+        },
+        "2023": {
+          "white": 0.467,
+          "black": 0.279,
+          "hispanic": 0.362,
+          "asian": 0.158
+        },
+        "2018": {
+          "white": 0.854,
+          "asian": 0.46,
+          "hispanic": 0.946,
+          "black": 0.93
+        },
+        "2019": {
+          "white": 3.043,
+          "asian": 0.416,
+          "black": 0.913,
+          "hispanic": 0.872
+        },
+        "2020": {
+          "white": 0.547,
+          "black": 0.605,
+          "hispanic": 0.593,
+          "asian": 0.342
+        },
+        "2021": {
+          "white": 0.582,
+          "black": 0.584,
+          "hispanic": 0.535,
+          "asian": 0.311
+        }
       }
     },
     "Wyoming": {
@@ -4251,6 +6002,44 @@
         "hispanic": 3401,
         "asian": 477,
         "black": 367
+      },
+      "yearly_spreads": {
+        "2022": {
+          "white": 0.298,
+          "hispanic": 0.254,
+          "asian": 0.185,
+          "black": 0.25
+        },
+        "2023": {
+          "white": 0.111,
+          "hispanic": -0.169,
+          "asian": -0.005,
+          "black": 0.18
+        },
+        "2018": {
+          "white": 0.553,
+          "hispanic": 0.71,
+          "asian": 0.544,
+          "black": 0.518
+        },
+        "2019": {
+          "white": 0.417,
+          "hispanic": 0.523,
+          "asian": 0.341,
+          "black": 0.63
+        },
+        "2020": {
+          "white": 0.185,
+          "hispanic": 0.271,
+          "black": 0.161,
+          "asian": 0.021
+        },
+        "2021": {
+          "white": 0.279,
+          "hispanic": 0.327,
+          "black": 0.267,
+          "asian": 0.159
+        }
       }
     }
   }
