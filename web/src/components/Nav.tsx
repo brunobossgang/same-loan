@@ -58,6 +58,14 @@ export default function Nav() {
           >
             Traffic Stops ↗
           </a>
+          <a
+            href="https://instagram.com/justiceindex"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-emerald-400/70 hover:text-emerald-400 transition-colors font-medium"
+          >
+            Instagram ↗
+          </a>
         </div>
       </div>
     </nav>
