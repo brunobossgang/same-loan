@@ -51,6 +51,7 @@ def process_state(state_code):
     
     # By year
     rates_by_race_year = defaultdict(list)
+    spreads_by_race_year = defaultdict(list)
     
     total = 0
     
@@ -116,6 +117,10 @@ def process_state(state_code):
             try:
                 year = int(year_str)
                 rates_by_race_year[(race, year)].append(rate)
+                try:
+                    spreads_by_race_year[(race, year)].append(spread)
+                except:
+                    pass
             except:
                 pass
     
@@ -170,6 +175,12 @@ def process_state(state_code):
         if has_data:
             income_brackets.append(row_data)
     
+    # Yearly spread averages
+    yearly_spreads = {}
+    for (race, year), vals in spreads_by_race_year.items():
+        if len(vals) > 30:
+            yearly_spreads.setdefault(str(year), {})[race] = avg(vals)
+    
     # Counts by race
     counts = {r: len(v) for r, v in rates_by_race.items() if v}
     
@@ -184,6 +195,7 @@ def process_state(state_code):
         "loan_type_spreads": loan_type_spreads,
         "income_brackets": income_brackets,
         "counts": counts,
+        "yearly_spreads": yearly_spreads,
     }
 
 
@@ -226,6 +238,21 @@ for f in sorted(os.listdir(DATA_DIR)):
 nat_rates = {r: round(sum(v)/len(v), 3) for r, v in all_rates.items() if v}
 nat_spreads = {r: round(sum(v)/len(v), 3) for r, v in all_spreads.items() if v}
 
+# National yearly trends (aggregate weighted by count)
+nat_yearly_spreads_sum = defaultdict(lambda: defaultdict(lambda: [0.0, 0]))
+for state_name, stats in all_stats.items():
+    for year_str, race_data in stats.get('yearly_spreads', {}).items():
+        for race, val in race_data.items():
+            # Use count-weighted average approximation: just average state averages
+            nat_yearly_spreads_sum[year_str][race][0] += val
+            nat_yearly_spreads_sum[year_str][race][1] += 1
+
+nat_yearly = {}
+for year_str in sorted(nat_yearly_spreads_sum.keys()):
+    nat_yearly[year_str] = {}
+    for race, (s, c) in nat_yearly_spreads_sum[year_str].items():
+        nat_yearly[year_str][race] = round(s / c, 3)
+
 states_list = sorted(all_stats.keys())
 
 precomputed = {
@@ -237,6 +264,7 @@ precomputed = {
     },
     "avg_rates": nat_rates,
     "avg_spreads": nat_spreads,
+    "yearly_spreads": nat_yearly,
     "by_state": all_stats,
 }
 
