@@ -1,0 +1,93 @@
+{
+  "n": 1892859,
+  "r_squared": 0.0431,
+  "adj_r_squared": 0.043,
+  "coefficients": {
+    "race_American Indian or Alaska Native": {
+      "coef": 0.0038,
+      "std_err": 0.0188,
+      "p_value": 0.84,
+      "ci_lower": -0.033,
+      "ci_upper": 0.0406,
+      "significant": false
+    },
+    "race_Asian": {
+      "coef": -0.1311,
+      "std_err": 0.0053,
+      "p_value": 0.0,
+      "ci_lower": -0.1414,
+      "ci_upper": -0.1207,
+      "significant": true
+    },
+    "race_Black or African American": {
+      "coef": 0.071,
+      "std_err": 0.0048,
+      "p_value": 0.0,
+      "ci_lower": 0.0616,
+      "ci_upper": 0.0804,
+      "significant": true
+    },
+    "race_Native Hawaiian or Other Pacific Islander": {
+      "coef": 0.0203,
+      "std_err": 0.0271,
+      "p_value": 0.454,
+      "ci_lower": -0.0327,
+      "ci_upper": 0.0734,
+      "significant": false
+    },
+    "hispanic": {
+      "coef": 0.0966,
+      "std_err": 0.0048,
+      "p_value": 0.0,
+      "ci_lower": 0.0873,
+      "ci_upper": 0.106,
+      "significant": true
+    }
+  },
+  "named_coefficients": {
+    "American Indian / Alaska Native": {
+      "coef": 0.0038,
+      "std_err": 0.0188,
+      "p_value": 0.84,
+      "ci_lower": -0.033,
+      "ci_upper": 0.0406,
+      "significant": false
+    },
+    "Asian": {
+      "coef": -0.1311,
+      "std_err": 0.0053,
+      "p_value": 0.0,
+      "ci_lower": -0.1414,
+      "ci_upper": -0.1207,
+      "significant": true
+    },
+    "Black": {
+      "coef": 0.071,
+      "std_err": 0.0048,
+      "p_value": 0.0,
+      "ci_lower": 0.0616,
+      "ci_upper": 0.0804,
+      "significant": true
+    },
+    "Native Hawaiian / Pacific Islander": {
+      "coef": 0.0203,
+      "std_err": 0.0271,
+      "p_value": 0.454,
+      "ci_lower": -0.0327,
+      "ci_upper": 0.0734,
+      "significant": false
+    },
+    "Hispanic": {
+      "coef": 0.0966,
+      "std_err": 0.0048,
+      "p_value": 0.0,
+      "ci_lower": 0.0873,
+      "ci_upper": 0.106,
+      "significant": true
+    }
+  },
+  "controls": [
+    "income", "loan_amount", "loan_to_value_ratio", "debt_to_income_ratio",
+    "loan_type", "occupancy_type", "activity_year", "state"
+  ]
+}

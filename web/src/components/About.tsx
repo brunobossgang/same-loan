@@ -34,7 +34,12 @@ export default function About() {
             primary residences across all 50 states and DC, spanning 2018–2023. Rate
             spreads (above the benchmark APOR rate) are compared by race, stratified
             by income bracket, loan type (conventional, FHA, VA, USDA), and state.
-            Hispanic ethnicity is identified via HMDA&apos;s derived_ethnicity field.
+            An OLS regression on 1.9 million loans controls for income, loan amount,
+            LTV, DTI, loan type, occupancy type, state, and year — see the{" "}
+            <a href="#methodology" className="text-emerald-400 hover:text-emerald-300 underline">
+              Regression Analysis
+            </a>{" "}
+            section above.
           </p>
         </div>
 

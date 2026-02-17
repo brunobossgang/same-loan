@@ -7,6 +7,7 @@ import USMap from "@/components/USMap";
 import StateCards from "@/components/StateCards";
 import Trends from "@/components/Trends";
 import TakeAction from "@/components/TakeAction";
+import Methodology from "@/components/Methodology";
 import About from "@/components/About";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <IncomeAnalysis />
       <StateCards />
       <Trends />
+      <Methodology />
       <TakeAction />
       <About />
     </>

@@ -8,6 +8,7 @@ const links = [
   { href: "#income", label: "Income" },
   { href: "#states", label: "States" },
   { href: "#trends", label: "Trends" },
+  { href: "#methodology", label: "Evidence" },
   { href: "#act", label: "Act" },
 ];
 
